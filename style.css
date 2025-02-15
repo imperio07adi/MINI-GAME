@@ -82,7 +82,15 @@ button:hover{
     background-color:orange;
     color: black;
 }
-
+@media (max-width:344px)
+{
+    .container{
+        height:70vh; 
+    }
+    .msg-container{
+        height:80vh;
+    }
+}
 h1{
     color: aliceblue;
 }
