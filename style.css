@@ -6,6 +6,7 @@
 body {
     background-color: #465362;
     text-align: center;
+    height:98vh;
 }
 .twitter{
     height: 25px;
@@ -103,7 +104,7 @@ button:hover{
 @media (max-width:344px)
 {
     .container{
-        height:100vh; 
+        height:98vh; 
     }
     .msg-container{
         height:100vh;
