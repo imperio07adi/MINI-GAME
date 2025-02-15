@@ -89,6 +89,7 @@ button:hover{
     }
     .msg-container{
         height:100vh;
+        margin:100%;
     }
 }
 h1{
