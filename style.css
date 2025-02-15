@@ -115,9 +115,9 @@ h1{
     color: aliceblue;
 }
 header{
+    margin-top:10px;
     background-color: black;
     padding-top: 12px 5px 5px 5px;
-    gap:5px;
 }
 
 .footer{
