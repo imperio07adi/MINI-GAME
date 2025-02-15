@@ -7,6 +7,24 @@ body {
     background-color: #465362;
     text-align: center;
 }
+.twitter{
+    height: 25px;
+    width: 25px;
+    border-radius: 30px;
+    border:2px  solid yellow;
+}
+.facebook{
+    height: 25px;
+    width: 25px;
+    border-radius: 30px;
+    border:2px  solid yellow;
+}
+.github{
+    height: 25px;
+    width: 25px;
+    border-radius: 30px;
+    border:2px  solid yellow;
+}
 
 #newgame{
     padding: 1rem;
