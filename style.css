@@ -1,35 +1,45 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Moon+Dance&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
 }
 
 body {
-    background-color: #465362;
+    background-color: #7f99b7;
     text-align: center;
-    height:95vh;
-}
-.twitter{
-    height: 25px;
-    width: 25px;
-    border-radius: 30px;
-    border:2px  solid yellow;
-}
-.facebook{
-    height: 25px;
-    width: 25px;
-    border-radius: 30px;
-    border:2px  solid yellow;
-}
-.github{
-    height: 25px;
-    width: 25px;
-    border-radius: 30px;
-    border:2px  solid yellow;
+    display: flex;
+    font-size: 30px;
+    font-family: poppins;
+    flex-direction: column;
 }
 
-#newgame{
+.twitter {
+    height: 25px;
+    width: 25px;
+    border-radius: 30px;
+    border: 2px solid yellow;
+}
+
+.facebook {
+    height: 25px;
+    width: 25px;
+    border-radius: 30px;
+    border: 2px solid yellow;
+}
+
+.github {
+    height: 25px;
+    width: 25px;
+    border-radius: 30px;
+    border: 2px solid yellow;
+}
+
+#newgame {
     padding: 1rem;
-    margin-bottom:20% ;
+    margin-bottom: 20%;
     font-size: 1.25rem;
     background-color: orange;
     color: black;
@@ -37,98 +47,107 @@ body {
     border: none;
 }
 
-#newgame:hover{
-    background-color:rgb(206, 22, 31);
+#newgame:hover {
+    background-color: rgb(206, 22, 31);
     color: white;
 }
 
-.hide{
+.hide {
     display: none;
 }
 
-#msg{
+#msg {
     color: white;
     font-size: 10vmin;
     padding: 20%;
     padding-bottom: 40px;
 }
 
-.msg-container{
+.msg-container {
     margin: 0;
 }
 
-.container{
-    height: 63vh;
-    display: flex;
+a {
+    text-decoration: none;
+}
 
+.container {
+    height: 70vh;
+    display: flex;
+    flex: 1;
     justify-content: center;
     align-items: center;
 }
 
-.game{
+.game {
     height: 60vmin;
     width: 60vmin;
     display: flex;
-    flex-wrap:wrap ;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items:center ;
+    align-items: center;
     gap: 1.5vmin;
 }
-
-.box{
+header p{
+    font-weight: 600;
+    font-size: 50px;
+    font-family: Moon Dance;
+}
+.box {
     height: 18vmin;
     width: 18vmin;
     border-radius: 1rem;
     background-color: #F9DC5C;
     border: none;
-    box-shadow: 0 0 1rem rgba(0,0,0,0.9);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.9);
     font-size: 8vmin;
-    color:black;
+    color: black;
 }
-button:hover{
+
+button:hover {
     background-color: #ED254E;
 }
 
-#reset-btn{
-    padding: 1rem;
+#reset-btn {
+    padding: 5px 20px;
     font-size: 1.25rem;
     background-color: #F4FFFD;
     color: #011936;
     border-radius: 1rem;
     border: none;
 }
-#reset-btn:hover{
-    background-color:orange;
+
+#reset-btn:hover {
+    background-color: orange;
     color: black;
 }
-@media (max-width:344px)
-{
-    .container{
-        height:95vh; 
+
+@media (max-width:768px) {
+    .container {
+        height: 70vh;
     }
-    .msg-container{
-        height:150vh;
-        margin:100%;
+
+    .msg-container {
+        height: 80vh;
     }
-}
-h1{
-    color: aliceblue;
-}
-header{
-    background-color: black;
-    padding: 12px 5px 5px 5px;
 }
 
-.footer{
+h1 {
+    color: black;
+}
+
+header {
+    padding: 5px;
+}
+
+.footer {
     margin-top: 50px;
-    background-color: black;
-    color: white;
+    color: black;
     display: flex;
+    /* font-weight:600; */
     padding: 10px;
+    font-size: 17px;
+    padding-bottom: 20px;
     justify-content: center;
     align-items: center;
-}
-
-a{
-    color: whitesmoke;
 }
