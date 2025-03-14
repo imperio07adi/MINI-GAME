@@ -4,6 +4,7 @@
 
 Mini Opera is a web-based Tic-Tac-Toe game built using HTML, CSS, and JavaScript. It offers a simple yet engaging two-player experience with a clean UI and real-time win detection.
 
+________________________________________________________________________________________
 
 🚀 Features
 
@@ -15,6 +16,7 @@ Mini Opera is a web-based Tic-Tac-Toe game built using HTML, CSS, and JavaScript
 
 ✅ Instant Replay – Restart the game without refreshing the page.
 
+________________________________________________________________________________________
 
 🛠 Tech Stack
 
@@ -22,11 +24,13 @@ Frontend: HTML, CSS, JavaScript
 
 Deployment: Netlify
 
+________________________________________________________________________________________
 
 🎨 Screenshots
 
 ![WhatsApp Image 2025-03-14 at 16 18 02_34c83cea](https://github.com/user-attachments/assets/0dc19ac9-e5a8-4f62-89bf-73c6682d12e7)
 
+________________________________________________________________________________________
 
 💡 How It Works
 
@@ -38,6 +42,7 @@ A winner is announced or the game ends in a draw.
 
 Players can restart the game instantly.
 
+________________________________________________________________________________________
 
 🔧 Setup & Installation
 
@@ -48,6 +53,7 @@ cd mini-opera
 
 Run Locally: Open index.html in your browser.
 
+________________________________________________________________________________________
 
 🚀 Future Improvements
 
@@ -57,10 +63,13 @@ Run Locally: Open index.html in your browser.
 
 🔹 Track player scores for multiple rounds.
 
+________________________________________________________________________________________
 
 🤝 Contributing
 
 Feel free to fork this repository, create a new branch, and submit a pull request with improvements!
+
+________________________________________________________________________________________
 
 📬 Feedback & Contact
 
