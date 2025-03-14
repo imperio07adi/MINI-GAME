@@ -18,7 +18,6 @@ Deployment: Netlify
 
 🎨 Screenshots
 ![WhatsApp Image 2025-03-14 at 16 18 02_34c83cea](https://github.com/user-attachments/assets/0dc19ac9-e5a8-4f62-89bf-73c6682d12e7)
-![WhatsApp Image 2025-03-14 at 16 27 00_7e777a1d](https://github.com/user-attachments/assets/1821c5d6-f46f-4e01-8f0f-c9a944bb3640)
 
 
 💡 How It Works
